@@ -2,3 +2,13 @@
 1501084222 source:d:\projekty\tictactoe\tictactoe ui\main.cpp
 	<iostream>
 
+1501089668 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\main.cpp
+	<iostream>
+	"include/functions.h"
+
+1501089796 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\functions.h
+	<windows.h>
+
+1501089596 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\functions.cpp
+	"functions.h"
+
