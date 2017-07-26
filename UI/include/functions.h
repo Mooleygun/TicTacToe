@@ -2,6 +2,7 @@
 #define FUNCTIONS_H
 
 #include <windows.h>
+#include <conio.h>
 
 enum COLOR
 {
@@ -9,7 +10,8 @@ enum COLOR
     RED = 12
 };
 
-bool changeColor(COLOR color);
+void changeColor(COLOR color);
 
+void changePosition(short x, short y);
 
 #endif

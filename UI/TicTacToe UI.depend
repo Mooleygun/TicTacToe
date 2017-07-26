@@ -2,13 +2,19 @@
 1501084222 source:d:\projekty\tictactoe\tictactoe ui\main.cpp
 	<iostream>
 
-1501089668 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\main.cpp
+1501103446 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\main.cpp
 	<iostream>
 	"include/functions.h"
 
-1501089796 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\functions.h
+1501102930 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\functions.h
 	<windows.h>
+	<conio.h>
 
-1501089596 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\functions.cpp
+1501100919 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\functions.cpp
 	"functions.h"
+
+1501103461 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\player.cpp
+	"Player.h"
+
+1501103514 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\player.h
 

@@ -6,7 +6,15 @@ using namespace std;
 int main()
 {
     changeColor(WHITE);
-    cout << "Tic Tac Toe" << endl;
-    cout << "Cross - x, circle - o" << endl;
+    cout << "+---+---+---+" << endl;
+    cout << "| 1 | 2 | 3 |" << endl;
+    cout << "+---+---+---+" << endl;
+    cout << "| 4 | 5 | 6 |" << endl;
+    cout << "+---+---+---+" << endl;
+    cout << "| 7 | 8 | 9 |" << endl;
+    cout << "+---+---+---+" << endl;
+    changePosition(20,1);
+    changeColor(RED);
+    //view current player
     return 0;
 }
