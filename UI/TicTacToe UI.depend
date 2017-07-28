@@ -2,7 +2,7 @@
 1501084222 source:d:\projekty\tictactoe\tictactoe ui\main.cpp
 	<iostream>
 
-1501103446 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\main.cpp
+1501103605 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\main.cpp
 	<iostream>
 	"include/functions.h"
 
@@ -17,4 +17,15 @@
 	"Player.h"
 
 1501103514 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\player.h
+
+1501284883 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\board.cpp
+	"Board.h"
+
+1501286626 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\board.h
+	"Field.h"
+
+1501284949 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\field.cpp
+	"Field.h"
+
+1501285301 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\field.h
 

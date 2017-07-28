@@ -13,8 +13,11 @@ int main()
     cout << "+---+---+---+" << endl;
     cout << "| 7 | 8 | 9 |" << endl;
     cout << "+---+---+---+" << endl;
-    changePosition(20,1);
+    changePosition(20,3);
     changeColor(RED);
+    cout << "X";
+    changePosition(0,10);
+    changeColor(WHITE);
     //view current player
     return 0;
 }
