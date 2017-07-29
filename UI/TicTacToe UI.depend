@@ -2,30 +2,53 @@
 1501084222 source:d:\projekty\tictactoe\tictactoe ui\main.cpp
 	<iostream>
 
+<<<<<<< HEAD
 1501360447 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\main.cpp
+=======
+1501359592 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\main.cpp
+>>>>>>> 14645252fa1cf187f9285d65cd078a43551f28a5
 	<iostream>
 	"include/functions.h"
+	"include/Board.h"
+	"include/UI.h"
 
+<<<<<<< HEAD
 1501360447 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\functions.h
+=======
+1501340311 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\functions.h
+>>>>>>> 14645252fa1cf187f9285d65cd078a43551f28a5
 	<windows.h>
 	<conio.h>
+	<ctime>
 
-1501100919 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\functions.cpp
+1501340352 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\functions.cpp
 	"functions.h"
 
-1501103461 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\player.cpp
+1501333712 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\player.cpp
 	"Player.h"
 
-1501103514 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\player.h
+1501332361 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\player.h
 
-1501284883 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\board.cpp
+1501359403 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\board.cpp
 	"Board.h"
 
-1501286626 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\board.h
+1501359403 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\board.h
+	"Field.h"
+	"Player.h"
+	"functions.h"
+
+1501354475 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\field.cpp
 	"Field.h"
 
-1501284949 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\field.cpp
-	"Field.h"
+1501354447 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\field.h
+	<iostream>
+	<windows.h>
 
-1501285301 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\field.h
+1501358865 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\ui.cpp
+	"UI.h"
+
+1501340096 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\ui.h
+	"Board.h"
+	"Player.h"
+	"functions.h"
 
