@@ -1,14 +1,18 @@
 #ifndef BOARD_H
 #define BOARD_H
+
 #include "Field.h"
+#include "functions.h"
 
 enum GAMESTATE
 {
-    PLAY = 0,
+    STOP = 0,
     WIN_CIRCLE = 1,
     WIN_CROSS = 2,
     DRAW = 3,
-    OTHER =4// ???????
+    PLAY_CIRCLE = 4,
+    PLAY_CROSS = 5,
+    START = 6
 };
 
 class Board
@@ -18,9 +22,11 @@ class Board
         Board();
         virtual ~Board();
         Field fields[3][3];
-        bool isFieldEmpty();
-        void fillField(STATE state);
+        GAMESTATE gameState;
         GAMESTATE checkGamestate();
+        void drawBoard();
+        void updateBoard(GAMESTATE state, short number);
+        char GStoChar(GAMESTATE gs);
 
     protected:
 

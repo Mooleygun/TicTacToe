@@ -2,30 +2,44 @@
 1501084222 source:d:\projekty\tictactoe\tictactoe ui\main.cpp
 	<iostream>
 
-1501103605 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\main.cpp
-	<iostream>
+1501338195 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\main.cpp
 	"include/functions.h"
 
-1501102930 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\functions.h
+1501338979 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\functions.h
 	<windows.h>
 	<conio.h>
+	<ctime>
+	"Player.h"
+	"Board.h"
+	"UI.h"
 
-1501100919 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\functions.cpp
+1501333541 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\functions.cpp
 	"functions.h"
 
-1501103461 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\player.cpp
+1501333712 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\player.cpp
 	"Player.h"
 
-1501103514 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\player.h
+1501332361 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\player.h
 
-1501284883 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\board.cpp
+1501334050 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\board.cpp
 	"Board.h"
 
-1501286626 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\board.h
+1501338979 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\board.h
+	"Field.h"
+	"functions.h"
+
+1501326466 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\field.cpp
 	"Field.h"
 
-1501284949 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\field.cpp
-	"Field.h"
+1501338408 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\field.h
+	<iostream>
+	<windows.h>
 
-1501285301 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\field.h
+1501336449 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\src\ui.cpp
+	"UI.h"
+
+1501338195 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\ui.h
+	"Board.h"
+	"Player.h"
+	"functions.h"
 

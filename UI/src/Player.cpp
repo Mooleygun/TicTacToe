@@ -1,8 +1,9 @@
 #include "Player.h"
 
-Player::Player()
+Player::Player(char Sign)
 {
-    //ctor
+    this->sign = Sign;
+    this->points = 0;
 }
 
 Player::~Player()
