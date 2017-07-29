@@ -3,6 +3,9 @@
 
 #include <windows.h>
 #include <conio.h>
+#include <ctime>
+
+using namespace std;
 
 enum COLOR
 {
@@ -13,5 +16,9 @@ enum COLOR
 void changeColor(COLOR color);
 
 void changePosition(short x, short y);
+
+void seed();
+
+int random(short minNumber, short maxNumber);
 
 #endif

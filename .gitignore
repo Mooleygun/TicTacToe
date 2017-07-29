@@ -45,3 +45,7 @@ $RECYCLE.BIN/
 
 
 # End of https://www.gitignore.io/api/windows,executable
+UI/src/UI.cpp
+UI/src/UI.cpp
+UI/src/UI.cpp
+UI/include/UI.h
