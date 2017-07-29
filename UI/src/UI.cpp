@@ -19,10 +19,14 @@ bool UI::isFieldChanged(Board board, short x, short y, Player currentPlayer)
         changeColor(WHITE);
         return false;
     }
-    if(currentPlayer.sign == 'O')
+    /*if(currentPlayer.sign == 'O')
         board.fields[x][y].fillField(CIRCLE);
     else
-        board.fields[x][y].fillField(CROSS);
+        board.fields[x][y].fillField(CROSS); */
+    if(currentPlayer.sign == 'O')
+        board.fields[x][y].state = CIRCLE;
+    else
+        board.fields[x][y].state = CROSS;
     return true;
 }
 
@@ -76,10 +80,6 @@ bool UI::isChoiceCorrect(int number, Board board, Player currentPlayer)
             y = 2;
             if(this->isFieldChanged(board,x,y,currentPlayer) == true) return true;
             break;
-        default:
-            x = 0;
-            y = 0;
-            if(this->isFieldChanged(board,x,y,currentPlayer) == true) return true;
-            break;
     }
+    return false;
 }

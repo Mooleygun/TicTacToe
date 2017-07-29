@@ -6,6 +6,7 @@
 #include "functions.h"
 
 class UI
+    : public Board
 {
     public:
         UI();
