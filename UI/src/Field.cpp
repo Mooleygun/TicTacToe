@@ -2,7 +2,7 @@
 
 Field::Field()
 {
-    this->state = EMPTY;
+    state = EMPTY;
 }
 
 Field::~Field()
@@ -12,11 +12,11 @@ Field::~Field()
 
 bool Field::isFieldEmpty()
 {
-    if(this->state == EMPTY) return true;
+    if(state == EMPTY) return true;
     return false;
 }
 
-void Field::fillField(STATE state)
+void Field::fillField(STATE status)
 {
-    this->state = state;
+    state = status;
 }

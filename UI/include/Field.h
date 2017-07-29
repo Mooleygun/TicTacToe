@@ -13,8 +13,6 @@ enum STATE
     CROSS = 2
 };
 
-
-
 class Field
 {
     public:

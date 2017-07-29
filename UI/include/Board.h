@@ -2,6 +2,7 @@
 #define BOARD_H
 
 #include "Field.h"
+#include "Player.h"
 #include "functions.h"
 
 enum GAMESTATE
@@ -25,12 +26,18 @@ class Board
         GAMESTATE gameState;
         GAMESTATE checkGamestate();
         void drawBoard();
-        void updateBoard(GAMESTATE state, short number);
+        void updateBoard(short number);
         char GStoChar(GAMESTATE gs);
+        bool isFieldChanged(short x, short y, Player currentPlayer);
+        bool isChoiceCorrect(int number, Player currentPlayer);
 
     protected:
 
     private:
 };
+
+void showCurrentPlayer(Board board, Player playerCircle, Player playerCross);
+
+Player currentPlayer(Board board, Player playerCircle, Player playerCross);
 
 #endif // BOARD_H
