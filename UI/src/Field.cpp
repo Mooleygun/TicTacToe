@@ -2,10 +2,21 @@
 
 Field::Field()
 {
-    this->state = EMPTY;
+    state = EMPTY;
 }
 
 Field::~Field()
 {
     //dtor
+}
+
+bool Field::isFieldEmpty()
+{
+    if(state == EMPTY) return true;
+    return false;
+}
+
+void Field::fillField(STATE status)
+{
+    state = status;
 }

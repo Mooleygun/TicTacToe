@@ -5,7 +5,7 @@
 class Player
 {
     public:
-        Player();
+        Player(char Sign);
         virtual ~Player();
 
     char sign;

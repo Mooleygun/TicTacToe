@@ -2,11 +2,11 @@
 1501084222 source:d:\projekty\tictactoe\tictactoe ui\main.cpp
 	<iostream>
 
-1501103605 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\main.cpp
+1501360447 source:d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\main.cpp
 	<iostream>
 	"include/functions.h"
 
-1501102930 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\functions.h
+1501360447 d:\projekty\tictactoe\tictactoe ui\tictactoe\ui\include\functions.h
 	<windows.h>
 	<conio.h>
 

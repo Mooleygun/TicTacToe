@@ -14,3 +14,13 @@ void changePosition(short x, short y)
     position.Y = y;
     SetConsoleCursorPosition(hConsole, position);
 }
+
+void seed()
+{
+    srand (static_cast<int>(time(NULL)));
+}
+
+int random(short minNumber, short maxNumber)
+{
+    return (rand() % (maxNumber - minNumber + 1)) + minNumber;
+}
